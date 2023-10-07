@@ -1,0 +1,60 @@
+@media screen and (max-width: 602px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav--ele {
+        background-color: black;
+    }
+
+    .more--wrapper, .search {
+        display: none;
+    }
+
+    .merch--res {
+        display: block;
+    }
+    
+    .content--artist {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .location--wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact--wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form--row1 {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .content1-txt {
+        display: none;
+    }
+
+    /* Bar button */
+    .bar {
+        display: block;
+    }
+
+    .row1--res {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rowx--res {
+        display: none;
+    }
+    
+    #content1 {
+        height: 25vh;
+    }
+
+}
